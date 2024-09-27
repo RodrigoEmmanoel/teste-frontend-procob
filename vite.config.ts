@@ -12,6 +12,7 @@ export default defineConfig({
   },
   resolve: {
     alias: {
+      pages: `${__dirname}/src/pages`,
       components: `${__dirname}/src/components`,
       styles: `${__dirname}/src/styles`,
       utils: `${__dirname}/src/utils`,
