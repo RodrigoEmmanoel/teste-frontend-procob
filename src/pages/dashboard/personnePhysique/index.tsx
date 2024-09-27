@@ -35,10 +35,10 @@ export default function PersonnePhysique() {
   useEffect(() => {
     if (totalPeopleByRegion) {
       setRegiaoChartSeries([
-        totalPeopleByRegion.Norte,
-        totalPeopleByRegion.Sul,
-        totalPeopleByRegion.Leste,
-        totalPeopleByRegion.Oeste
+        totalPeopleByRegion.Norte || 0,
+        totalPeopleByRegion.Sul || 0,
+        totalPeopleByRegion.Leste || 0,
+        totalPeopleByRegion.Oeste || 0
       ])
     }
   }, [totalPeopleByRegion])
@@ -62,24 +62,19 @@ export default function PersonnePhysique() {
       }
     }
   })
-  const [faixaEtariaChartSeries, setFaixaEtariaChartSeries] = useState([
-    personnePhysique.idade['-18'],
-    personnePhysique.idade['19a25'],
-    personnePhysique.idade['26a40'],
-    personnePhysique.idade['41a60'],
-    personnePhysique.idade['61a80'],
-    personnePhysique.idade['+80']
-  ])
+  const [faixaEtariaChartSeries, setFaixaEtariaChartSeries] = useState<
+    number[]
+  >([])
 
   useEffect(() => {
     if (personnePhysique) {
       setFaixaEtariaChartSeries([
-        personnePhysique.idade['-18'],
-        personnePhysique.idade['19a25'],
-        personnePhysique.idade['26a40'],
-        personnePhysique.idade['41a60'],
-        personnePhysique.idade['61a80'],
-        personnePhysique.idade['+80']
+        personnePhysique.idade['-18'] || 0,
+        personnePhysique.idade['19a25'] || 0,
+        personnePhysique.idade['26a40'] || 0,
+        personnePhysique.idade['41a60'] || 0,
+        personnePhysique.idade['61a80'] || 0,
+        personnePhysique.idade['+80'] || 0
       ])
     }
   }, [personnePhysique])

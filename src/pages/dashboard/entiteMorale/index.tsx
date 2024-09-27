@@ -87,7 +87,7 @@ export default function EntiteMorale() {
       setCnaesChartSeries([
         {
           name: 'Total',
-          data: Object.values(entiteMorale.cnaes)
+          data: Object.values(entiteMorale.cnaes).map((value) => value || 0)
         }
       ])
 
@@ -102,7 +102,9 @@ export default function EntiteMorale() {
       setNaturezaJuridicaChartSeries([
         {
           name: 'Total',
-          data: Object.values(entiteMorale.naturezaJuridica)
+          data: Object.values(entiteMorale.naturezaJuridica).map(
+            (value) => value || 0
+          )
         }
       ])
     }
@@ -168,7 +170,7 @@ export default function EntiteMorale() {
           {Object.entries(entiteMorale?.cnaes || {}).map(([type, total]) => (
             <Fragment key={type}>
               <div className="card__multiple-group">
-                <span className="card__total">{total}</span>
+                <span className="card__total">{total || 0}</span>
                 <span className="card__type">{type}</span>
               </div>
             </Fragment>
@@ -182,7 +184,7 @@ export default function EntiteMorale() {
             ([type, total]) => (
               <Fragment key={type}>
                 <div className="card__multiple-group">
-                  <span className="card__total">{total}</span>
+                  <span className="card__total">{total || 0}</span>
                   <span className="card__type">{type}</span>
                 </div>
               </Fragment>
