@@ -1,6 +1,6 @@
 # Teste Frontend PROCOB
 
-Este é um projeto desenvolvido com React, Vite, TypeScript e Zustand, utilizando Sass para estilização. O objetivo do projeto é consumir os dados API e apresentar os dados em uma dashboard.
+Este é um projeto desenvolvido com React, Vite, TypeScript e Zustand, utilizando Sass para estilização e MUI para a base dos componentes. O objetivo do projeto é consumir os dados API e apresentar os dados em uma dashboard com gráficos.
 
 ## Requisitos
 
@@ -56,6 +56,10 @@ Biblioteca de gerenciamento de estado leve e simples.
 ### Sass
 
 Uma biblioteca de componentes React que fornece uma implementação pronta de elementos de UI seguindo as diretrizes do Material Design.
+
+### ApexCharts
+
+Uma biblioteca de gráficos para React que permite criar visualizações de dados interativas e personalizáveis, com suporte a diversos tipos de gráficos.
 
 ## Configuração do Projeto
 
