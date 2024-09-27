@@ -1,0 +1,311 @@
+{
+  "dashboard": {
+    "tipoPessoa": {
+      "pessoaFisica": {
+        "total": 30,
+        "sexo": {
+          "masculino": 15,
+          "feminino": 12,
+          "indefinido": 3
+        },
+        "idade": {
+          "-18": 5,
+          "19a25": 8,
+          "26a40": 7,
+          "41a60": 6,
+          "61a80": 2,
+          "+80": 2
+        },
+        "participaEmpresa": {
+          "sim": 10,
+          "nao": 20
+        },
+        "carteira": {
+          "cobranca": 6,
+          "ecommerce": 8,
+          "aposentados": 5,
+          "outros": 11
+        }
+      },
+      "pessoaJuridica": {
+        "total": 30,
+        "cnaes": {
+          "6201-5": 10,
+          "7210-0": 8,
+          "7311-4": 6,
+          "7490-1": 6
+        },
+        "naturezaJuridica": {
+          "203-5": 12,
+          "206-2": 10
+        },
+        "idade": {
+          "1": 5,
+          "5": 10,
+          "10": 8,
+          "+20": 7
+        }
+      }
+    },
+    "totalPessoasPorRegiao": {
+      "Norte": 12,
+      "Sul": 15,
+      "Leste": 10,
+      "Oeste": 13
+    }
+  },
+  "dados_detalhados": [
+    {
+      "documento": "12345678901",
+      "tipoPessoa": "Fisica",
+      "nome": "João Silva",
+      "sexo": "Masculino",
+      "regiao": "Norte",
+      "idade": 23,
+      "participaEmpresa": "Sim",
+      "carteira": "ecommerce",
+      "cnae_principal": "",
+      "natureza_juridica": ""
+    },
+    {
+      "documento": "23456789012",
+      "tipoPessoa": "Fisica",
+      "nome": "Maria Oliveira",
+      "sexo": "Feminino",
+      "regiao": "Sul",
+      "idade": 30,
+      "participaEmpresa": "Não",
+      "carteira": "cobranca",
+      "cnae_principal": "",
+      "natureza_juridica": ""
+    },
+    {
+      "documento": "34567890123",
+      "tipoPessoa": "Fisica",
+      "nome": "Carlos Pereira",
+      "sexo": "Masculino",
+      "regiao": "Leste",
+      "idade": 45,
+      "participaEmpresa": "Sim",
+      "carteira": "aposentados",
+      "cnae_principal": "",
+      "natureza_juridica": ""
+    },
+    {
+      "documento": "45678901234",
+      "tipoPessoa": "Juridica",
+      "nome": "Tech Solutions Ltda",
+      "sexo": "Indefinido",
+      "regiao": "Oeste",
+      "idade": 12,
+      "participaEmpresa": "Não",
+      "carteira": "cobranca",
+      "cnae_principal": "6201-5",
+      "natureza_juridica": "203-5"
+    },
+    {
+      "documento": "56789012345",
+      "tipoPessoa": "Juridica",
+      "nome": "Inova Comércio S.A.",
+      "sexo": "Indefinido",
+      "regiao": "Norte",
+      "idade": 3,
+      "participaEmpresa": "Sim",
+      "carteira": "ecommerce",
+      "cnae_principal": "6201-5",
+      "natureza_juridica": "203-5"
+    },
+    {
+      "documento": "67890123456",
+      "tipoPessoa": "Fisica",
+      "nome": "Ana Santos",
+      "sexo": "Feminino",
+      "regiao": "Sul",
+      "idade": 29,
+      "participaEmpresa": "Não",
+      "carteira": "outros",
+      "cnae_principal": "",
+      "natureza_juridica": ""
+    },
+    {
+      "documento": "78901234567",
+      "tipoPessoa": "Fisica",
+      "nome": "Felipe Costa",
+      "sexo": "Masculino",
+      "regiao": "Leste",
+      "idade": 37,
+      "participaEmpresa": "Sim",
+      "carteira": "ecommerce",
+      "cnae_principal": "",
+      "natureza_juridica": ""
+    },
+    {
+      "documento": "89012345678",
+      "tipoPessoa": "Juridica",
+      "nome": "Global Corp",
+      "sexo": "Indefinido",
+      "regiao": "Sul",
+      "idade": 25,
+      "participaEmpresa": "Sim",
+      "carteira": "outros",
+      "cnae_principal": "7210-0",
+      "natureza_juridica": "203-5"
+    },
+    {
+      "documento": "90123456789",
+      "tipoPessoa": "Juridica",
+      "nome": "Construtora ABC Ltda",
+      "sexo": "Indefinido",
+      "regiao": "Oeste",
+      "idade": 15,
+      "participaEmpresa": "Não",
+      "carteira": "cobranca",
+      "cnae_principal": "7210-0",
+      "natureza_juridica": "203-5"
+    },
+    {
+      "documento": "01234567890",
+      "tipoPessoa": "Fisica",
+      "nome": "Roberta Almeida",
+      "sexo": "Feminino",
+      "regiao": "Norte",
+      "idade": 22,
+      "participaEmpresa": "Sim",
+      "carteira": "ecommerce",
+      "cnae_principal": "",
+      "natureza_juridica": ""
+    },
+    {
+      "documento": "12345678911",
+      "tipoPessoa": "Fisica",
+      "nome": "Rafael Lima",
+      "sexo": "Masculino",
+      "regiao": "Sul",
+      "idade": 19,
+      "participaEmpresa": "Não",
+      "carteira": "cobranca",
+      "cnae_principal": "",
+      "natureza_juridica": ""
+    },
+    {
+      "documento": "23456789013",
+      "tipoPessoa": "Fisica",
+      "nome": "Juliana Costa",
+      "sexo": "Feminino",
+      "regiao": "Leste",
+      "idade": 26,
+      "participaEmpresa": "Sim",
+      "carteira": "aposentados",
+      "cnae_principal": "",
+      "natureza_juridica": ""
+    },
+    {
+      "documento": "34567890124",
+      "tipoPessoa": "Fisica",
+      "nome": "Mateus Andrade",
+      "sexo": "Masculino",
+      "regiao": "Oeste",
+      "idade": 41,
+      "participaEmpresa": "Não",
+      "carteira": "outros",
+      "cnae_principal": "",
+      "natureza_juridica": ""
+    },
+    {
+      "documento": "45678901235",
+      "tipoPessoa": "Juridica",
+      "nome": "PrimeTech Ltda",
+      "sexo": "Indefinido",
+      "regiao": "Norte",
+      "idade": 8,
+      "participaEmpresa": "Sim",
+      "carteira": "ecommerce",
+      "cnae_principal": "7210-0",
+      "natureza_juridica": "206-2"
+    },
+    {
+      "documento": "56789012346",
+      "tipoPessoa": "Juridica",
+      "nome": "Mercado X Ltda",
+      "sexo": "Indefinido",
+      "regiao": "Sul",
+      "idade": 5,
+      "participaEmpresa": "Não",
+      "carteira": "cobranca",
+      "cnae_principal": "7210-0",
+      "natureza_juridica": "206-2"
+    },
+    {
+      "documento": "67890123457",
+      "tipoPessoa": "Juridica",
+      "nome": "Consultoria Y",
+      "sexo": "Indefinido",
+      "regiao": "Leste",
+      "idade": 12,
+      "participaEmpresa": "Sim",
+      "carteira": "outros",
+      "cnae_principal": "7311-4",
+      "natureza_juridica": "206-2"
+    },
+    {
+      "documento": "78901234568",
+      "tipoPessoa": "Juridica",
+      "nome": "Construtora Z",
+      "sexo": "Indefinido",
+      "regiao": "Oeste",
+      "idade": 20,
+      "participaEmpresa": "Não",
+      "carteira": "cobranca",
+      "cnae_principal": "7311-4",
+      "natureza_juridica": "206-2"
+    },
+    {
+      "documento": "89012345679",
+      "tipoPessoa": "Fisica",
+      "nome": "Lucas Martins",
+      "sexo": "Masculino",
+      "regiao": "Norte",
+      "idade": 35,
+      "participaEmpresa": "Sim",
+      "carteira": "ecommerce",
+      "cnae_principal": "",
+      "natureza_juridica": ""
+    },
+    {
+      "documento": "90123456780",
+      "tipoPessoa": "Fisica",
+      "nome": "Mariana Lima",
+      "sexo": "Feminino",
+      "regiao": "Sul",
+      "idade": 50,
+      "participaEmpresa": "Não",
+      "carteira": "aposentados",
+      "cnae_principal": "",
+      "natureza_juridica": ""
+    },
+    {
+      "documento": "01234567891",
+      "tipoPessoa": "Fisica",
+      "nome": "Fernando Alves",
+      "sexo": "Masculino",
+      "regiao": "Leste",
+      "idade": 60,
+      "participaEmpresa": "Sim",
+      "carteira": "cobranca",
+      "cnae_principal": "",
+      "natureza_juridica": ""
+    },
+    {
+      "documento": "12345678912",
+      "tipoPessoa": "Fisica",
+      "nome": "Camila Oliveira",
+      "sexo": "Feminino",
+      "regiao": "Oeste",
+      "idade": 60,
+      "participaEmpresa": "Sim",
+      "carteira": "cobranca",
+      "cnae_principal": "",
+      "natureza_juridica": ""
+    }
+  ]
+}
